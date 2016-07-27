@@ -12,7 +12,7 @@ Optionally you would need tar to create archives of the tilesets.
 
 To ensure that no artefacts occur during the resampling of the images the order of the workflow has to be:
 
-* __tiler-tools__ (http://code.google.com/p/tilers-tools/ using version 3.2)
+* __tiler-tools__ (https://sourceforge.net/projects/tilers-tools/ using version 3.2)
 (creates tif tiles of a dem in a gdal readable format)
 
 * __tile_border_neighbours.py__ 
