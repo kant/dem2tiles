@@ -1,8 +1,8 @@
-##dem-preprocessing tools
+## dem-preprocessing tools
 
-Both tile_border_neighbours.py and tile_colorencode.py are standalone tools and can be used independently. 
+Both `tile_border_neighbours.py` and `tile_colorencode.py` are standalone tools and can be used independently. 
 
-You can use batch_dem2tiles.py as an interface to call all tools in their respective order.
+You can use `batch_dem2tiles.py` as an interface to call all tools in their respective order.
 In addition it takes care of the temporary files and offers several other options.
 See the benchmark file for information about the multithreading feature.
 
@@ -22,15 +22,15 @@ To ensure that no artefacts occur during the resampling of the images the order 
 (encodes up to Float32 values in tif and write into two 8 bit bands of a png)
 
 
-##Usage
+## Usage
 
 ```
 ./batch_dem2tiles.py -i my_dem.vrt -o outputData/ -m -v
 ```
 
-##batch_dem2tiles.py
+## batch_dem2tiles.py
 
-See the help with batch_dem2tiles.py -h.
+See the help with `batch_dem2tiles.py -h`.
 
 ```
 usage: batch_dem2tiles.py [-h] (-i DEMINPUT | -x TILEINPUT) -o OUTPUT
